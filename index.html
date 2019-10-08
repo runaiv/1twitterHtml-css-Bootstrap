@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/810336b8c8.js" crossorigin="anonymous"></script>
+
+        
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Css local-->
+    <link rel="stylesheet"  type="text/css" href="app.css"/>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#"><i class="fas fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-bell"></i>Notifications</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Messages</a>
+                  </ul>
+                  <a class="navbar-brand" href="#"><i class="fab fa-twitter"></i></a>
+
+                  <form class="form-inline my-2 my-lg-0">
+                    <input id="search" class="form-control mr-sm-2" type="search" placeholder="Search Twitter" aria-label="Search">
+                  </form>
+                  <img src="profilePhoto.jpeg" class="profile-thumbnail" alt="profile-thumbnail"/>
+                  <a class="btn btn-primary tweet-button" href="#">Tweet</a>
+                </div>
+            </div>
+          </nav>
+              <header>
+                    <div id="cover-photo">
+                      <img src="coverPhoto.jpg" alt="cover-photo"/>
+                    </div>
+                    <div id="profile-photo-wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="profilePhoto.jpeg" id="profile-photo" alt="profile-photo"/>
+                                </div>
+                                <div class="col-6">
+                                  <a href="#" class="profile-stats .active">Tweets<span>6,420</span></a>
+                                  <a href="#" class="profile-stats">Following<span>300</span></a>
+                                  <a href="#" class="profile-stats">Followers<span>45K</span></a>
+                                  <a href="#" class="profile-stats">Likes<span>4,000</span></a>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-primary" id="follow-button" type="submit">Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </header>
+              <div class="container">
+                <div class="row">
+                  <div class="col-3" id="profile">
+                    <hgroup>
+                      <a href="#"><h1>Doggo<i class="fa fa-check-circle" aria-hidden="true"></i></h1></a>
+                      <a href="#"><h2>@thecutestdog</h2></a>
+                    </hgroup>
+                    <p>The famous doggo of the streets. Your girlfriend likes me more than you ;)</p>
+                    <span><i class="fa fa-map-marker"></i> 92i, FR</span>
+                    <span><i class="fa fa-link"></i><a href="#"> www.doggo.com</a></span>
+                    <span><i class="fa fa-calendar"></i> Joined Feb 2019</span>
+                    <div class="container">
+                      <div class="row" id="profile-buttons">
+                        <div class="col-6">
+                          <a class="btn btn-primary tweet-button" href="#">Tweet to</a>
+                        </div>
+                        <div class="col-6">
+                          <a class="btn btn-primary tweet-button" href="#">Message</a>
+                        </div>
+                      </div>
+                    </div>
+                    <span><i class="fa fa-image"></i><a href="#"> 80 photos and videos</a></span>
+                    <div id="follower-profile-photos">
+                      <img src="http://via.placeholder.com/81x81" alt="Followers profile photo">
+                      <img src="http://via.placeholder.com/81x81" alt="Followers profile photo">
+                      <img src="http://via.placeholder.com/81x81" alt="Followers profile photo">
+                      <br />
+                      <img src="http://via.placeholder.com/81x81" alt="Followers profile photo">
+                      <img src="http://via.placeholder.com/81x81" alt="Followers profile photo">
+                      <img src="http://via.placeholder.com/81x81" alt="Followers profile photo">
+                    </div>
+
+                  </div>
+                  <div class="col-6" id="tweets">
+                    <nav class="nav">
+                      <a class="nav-link active" href="#">Tweets</a>
+                      <a class="nav-link" href="#">Tweets &amp replies</a>
+                      <a class="nav-link" href="#">Media</a>
+                    </nav>
+                    <div class="cadre">
+                    <article class="container">
+                      <div class="row no-gutters">
+                        <div class="col-1">
+                          <img src="profilePhoto.jpeg" class="profile-thumbnail" alt="profile-thumbnail"/>
+                        </div>
+                        <div class="col-11 tweet-body">
+                          <a href="#" class="tweet-username"><span class="username-name">Doggo</span><i class="fa fa-check-circle"></i><span class="username-handle"> @thecutestdog</span></a>
+                          <p>Il se considère plus comme un chansonnier que comme un rappeur. Après vingt ans de carrière, Oxmo Puccino livre « La Nuit du réveil », son septième album en solo. Il y rend hommage à ses origines et au rap français qui l’a vu éclore.</p>
+                          <nav>
+                            <a href="#" class="comments"><i class="fa fa-comment-o"></i> 230</a>
+                            <a href="#" class="retweets"><i class="fa fa-retweet"></i> 610</a>
+                            <a href="#" class="hearts"><i class="fa fa-heart-o"></i> 920  </a>
+                            <a href="#" class="email"><i class="fa fa-envelope"></i></a>
+                          </nav>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="container" >
+                        <div class="row no-gutters">
+                          <div class="col-1">
+                            <img src="profilePhoto.jpeg" class="profile-thumbnail" alt="profile-thumbnail"/>
+                          </div>
+                          <div class="col-11 tweet-body">
+                            <a href="#" class="tweet-username"><span class="username-name">Doggo</span><i class="fa fa-check-circle"></i><span class="username-handle"> @thecutestdog</span></a>
+                            <p>Il se considère plus comme un chansonnier que comme un rappeur. Après vingt ans de carrière, Oxmo Puccino livre « La Nuit du réveil », son septième album en solo. Il y rend hommage à ses origines et au rap français qui l’a vu éclore.</p>
+                            <img id="tweet-cov-img" src="tweetimg.jpg" alt="cover-photo"/>
+                            <nav>
+                              <a href="#" class="comments"><i class="fa fa-comment-o"></i> 230</a>
+                              <a href="#" class="retweets"><i class="fa fa-retweet"></i> 610</a>
+                              <a href="#" class="hearts"><i class="fa fa-heart-o"></i> 920  </a>
+                              <a href="#" class="email"><i class="fa fa-envelope"></i></a>
+                            </nav>
+                          </div>
+                        </div>
+                      </article>
+                      <article class="container" >
+                          <div class="row no-gutters">
+                            <div class="col-1">
+                              <img src="profilePhoto.jpeg" class="profile-thumbnail" alt="profile-thumbnail"/>
+                            </div>
+                            <div class="col-11 tweet-body">
+                              <a href="#" class="tweet-username"><span class="username-name">Doggo</span><i class="fa fa-check-circle"></i><span class="username-handle"> @thecutestdog</span></a>
+                              <p>Il se considère plus comme un chansonnier que comme un rappeur. Après vingt ans de carrière, Oxmo Puccino livre « La Nuit du réveil », son septième album en solo. Il y rend hommage à ses origines et au rap français qui l’a vu éclore.</p>
+
+                              <nav>
+                                <a href="#" class="comments"><i class="fa fa-comment-o"></i> 230</a>
+                                <a href="#" class="retweets"><i class="fa fa-retweet"></i> 610</a>
+                                <a href="#" class="hearts"><i class="fa fa-heart-o"></i> 920  </a>
+                                <a href="#" class="email"><i class="fa fa-envelope"></i></a>
+                              </nav>
+                            </div>
+                          </div>
+                        </article>
+                        <article class="container" >
+                            <div class="row no-gutters">
+                              <div class="col-1">
+                                <img src="profilePhoto.jpeg" class="profile-thumbnail" alt="profile-thumbnail"/>
+                              </div>
+                              <div class="col-11 ">
+                                <a href="#" class="tweet-username"><span class="username-name">Doggo</span><i class="fa fa-check-circle"></i><span class="username-handle"> @thecutestdog</span></a>
+                                <p>Il se considère plus comme un chansonnier que comme un rappeur. Après vingt ans de carrière, Oxmo Puccino livre « La Nuit du réveil », son septième album en solo. Il y rend hommage à ses origines et au rap français qui l’a vu éclore.</p>
+                                <nav>
+                                  <a href="#" class="comments"><i class="fa fa-comment-o"></i> 230</a>
+                                  <a href="#" class="retweets"><i class="fa fa-retweet"></i> 610</a>
+                                  <a href="#" class="hearts"><i class="fa fa-heart-o"></i> 920  </a>
+                                  <a href="#" class="email"><i class="fa fa-envelope"></i></a>
+                                </nav>
+                              </div>
+                            </div>
+                          </article>
+                  </div>
+                  </div>
+                  <div class="col-3" id="trends">
+                    <nav class="nav">
+                      <a class="nav-link active" href="#">Who to follow</a>
+                      <a class="nav-link" href="#">.Refresh</a>
+                      <a class="nav-link" href="#">.View all</a>
+                    </nav>
+                    <div class="container">
+                      <div class="row" style=" border-bottom: 1px solid #e6ecf0;
+                      border-right:  1px solid #e6ecf0;
+                      border-left:  1px solid #e6ecf0;
+                      padding-bottom: 10px;">
+                        <div class="col-3">
+
+                        <img src="profilePhoto.jpeg" class="profile-thumbnail" alt="profile-thumbnail"/>
+                      </div>
+                      <div class="col-9">
+                        <hgroup>
+                            <a href="#" class="tweet-username"><span class="username-name">Doggo</span><i class="fa fa-check-circle"></i><span class="username-handle">@th</span></a>
+                          </hgroup>
+                          
+                          <button class="btn btn-primary" id="follow-button" style="float: left;"type="submit">Follow</button>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="container">
+                      <div class="row" style=" border-bottom: 1px solid #e6ecf0;
+                      border-right:  1px solid #e6ecf0;
+                      border-left:  1px solid #e6ecf0;
+                      padding-bottom: 10px;">
+                        <div class="col-3">
+
+                        <img src="profilePhoto.jpeg" class="profile-thumbnail" alt="profile-thumbnail"/>
+                      </div>
+                      <div class="col-9">
+                        <hgroup>
+                            <a href="#" class="tweet-username"><span class="username-name">Doggo</span><i class="fa fa-check-circle"></i><span class="username-handle">@th</span></a>
+                          </hgroup>
+                          
+                          <button class="btn btn-primary" id="follow-button" style="float: left;"type="submit">Follow</button>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="container">
+                      <div class="row" style=" border-bottom: 1px solid #e6ecf0;
+                      border-right:  1px solid #e6ecf0;
+                      border-left:  1px solid #e6ecf0;
+                      padding-bottom: 10px;">
+                        <div class="col-3">
+
+                        <img src="profilePhoto.jpeg" class="profile-thumbnail" alt="profile-thumbnail"/>
+                      </div>
+                      <div class="col-9">
+                        <hgroup>
+                            <a href="#" class="tweet-username"><span class="username-name">Doggo</span><i class="fa fa-check-circle"></i><span class="username-handle">@th</span></a>
+                          </hgroup>
+                          
+                          <button class="btn btn-primary" id="follow-button" style="float: left;"type="submit">Follow</button>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="container">
+                      <div class="row" style=" border-bottom: 1px solid #e6ecf0;
+                      border-right:  1px solid #e6ecf0;
+                      border-left:  1px solid #e6ecf0;
+                      padding-bottom: 10px;">
+                        <div class="col-3">
+
+                        <img src="profilePhoto.jpeg" class="profile-thumbnail" alt="profile-thumbnail"/>
+                      </div>
+                      <div class="col-9">
+                        <hgroup>
+                            <a href="#" class="tweet-username"><span class="username-name">Doggo</span><i class="fa fa-check-circle"></i><span class="username-handle">@th</span></a>
+                          </hgroup>
+                          
+                          <button class="btn btn-primary" id="follow-button" style="float: left;"type="submit">Follow</button>
+                    </div>
+                  </div>
+                  </div>
+                  <a class="nav-link" style="font-weight: normal; fontsize: " href="#"><i class="fas fa-user"></i>find people you know</a>
+                  </div>
+                </div>
+                </div>
+              </div>
+        
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
